@@ -9,11 +9,11 @@ print("\n")
 is_counting = False
 count = 0
 
-for character in sequence:
-    if (is_counting == False) and (character == marker):
+for character in Sequence:
+    if (is_counting == False) and (character == Marker):
       print("Found first marker")
       is_counting = True
-    elif (is_counting == True) and (character == marker):
+    elif (is_counting == True) and (character == Marker):
       print("Found last marker")
     elif is_counting:
       count += 1
