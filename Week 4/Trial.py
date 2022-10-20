@@ -1,7 +1,9 @@
-file = open("demo.txt")
+import csv
 
-content = file.read()
 
-file.close()
+#with open("demo.csv") as file:
+    #csv_reader = csv.reader(file)
+   # heading = next(csv_reader)
 
-print(content)
+    #or row in csv_reader:
+        #print(f"the leader of the {row[2]} is {row[1]}")
