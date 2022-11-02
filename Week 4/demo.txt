@@ -1,3 +1,0 @@
-"code","name","leader"
-"Com411","Problem solving","Prins But"
-"COM413","Networking", "Warren"
