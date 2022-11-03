@@ -1,8 +1,25 @@
 def observed():
-    observations = {"Flying Car", "Sky Scraper", "Sky Scraper", "Laser", "Dome", "Dome"}
+    observations = []
+    for count in range(7):
+        print("Please enter an observation: ")
+        obse = input()
+        observations.append(obse)
+
+
     return observations
 
 def run():
-    observed()
+    print("Counting observations...")
+    obs = observed()
+
+    setty = set()
+    for observation in obs:
+        data = (observation, obs.count(observation))
+        setty.add(data)
+
+
+
+
+
 
 run()
