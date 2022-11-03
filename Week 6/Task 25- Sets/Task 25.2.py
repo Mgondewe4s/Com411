@@ -17,6 +17,9 @@ def run():
         data = (observation, obs.count(observation))
         setty.add(data)
 
+    for data in setty:
+        print(f"{data[0]} observed {data[1]} times.")
+
 
 
 
