@@ -1,8 +1,8 @@
 def observed():
-    observations = {"Flying Car", "Sky Scraper", "Sky Scraper", "Laser", "Dome", "Dome"}
+    observations = {"Flying Car", "Sky Scraper", "Sky Scraper", "Laser", "Dome"}
     return observations
 
 def run():
-    observed()
+    print(observed())
 
 run()

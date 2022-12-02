@@ -5,8 +5,8 @@ def observed():
         obse = input()
         observations.append(obse)
 
-
     return observations
+
 
 def run():
     print("Counting observations...")
@@ -19,10 +19,6 @@ def run():
 
     for data in setty:
         print(f"{data[0]} observed {data[1]} times.")
-
-
-
-
 
 
 run()
